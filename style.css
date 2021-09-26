@@ -1,0 +1,91 @@
+body{
+    /*background:linear-gradient( 236.85deg ,#011302 27.26%, #060e09 96.03%);*/
+    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.corpo{
+    border: 2px solid green;
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    margin-top: 150px;
+    background-color: #092004f1;
+    box-shadow: 4px 4px 200px #025510;
+    border-radius: 20px;
+}
+.visor{
+    border: 2px solid green;
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    
+    
+    
+}
+div .visor > p{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    max-width: ;
+
+    
+}
+div .botoes{
+    text-align: center;
+    
+
+    
+    
+}
+div .botoes > button{
+    color: rgb(255, 255, 255);
+    background-color:  #10410400;
+    display: inline-block,center;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    font: normal bolder 20px 'work sans',sans-serif;
+    border-color: green;
+    
+    
+    
+}
+div .botoes .reset{
+    position:relative;
+    left: 19.3%;
+    width: 108.5px;
+    
+    
+
+    
+    
+}
+div .botoes .juntos{
+    position: relative;
+    right: 9.7%;
+
+}
+div .botoes .mais{
+    position: absolute;
+    left: 743px;
+    top: 452px;
+    height: 105px;
+    
+}
+div .botoes .juntos2{
+    position: relative;
+    right: 9.7%;
+}
+div .botoes > button:hover{
+
+    background-color: green;
+}
+.liga .visor{
+    background: rgb(255, 255, 255);
+}
+.desliga .visor{
+    background: black;
+}
